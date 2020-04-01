@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Hook reference | Multisite Language Switcher</title>
+    <meta name="description" content="Simple, powerful and easy to use">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="icon" href="/favicon.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.2a8ad169.css" as="style"><link rel="preload" href="/assets/js/app.e07b5001.js" as="script"><link rel="preload" href="/assets/js/2.585dabe6.js" as="script"><link rel="preload" href="/assets/js/10.d0d90ff7.js" as="script"><link rel="prefetch" href="/assets/js/11.f648e202.js"><link rel="prefetch" href="/assets/js/12.2dfe3341.js"><link rel="prefetch" href="/assets/js/13.e7705876.js"><link rel="prefetch" href="/assets/js/14.f3ff59f5.js"><link rel="prefetch" href="/assets/js/15.c2d9406e.js"><link rel="prefetch" href="/assets/js/16.947424c6.js"><link rel="prefetch" href="/assets/js/17.1102bc94.js"><link rel="prefetch" href="/assets/js/3.4e3d1b10.js"><link rel="prefetch" href="/assets/js/4.7a4d83b2.js"><link rel="prefetch" href="/assets/js/5.3ecf02b4.js"><link rel="prefetch" href="/assets/js/6.04ec0058.js"><link rel="prefetch" href="/assets/js/7.736fa06c.js"><link rel="prefetch" href="/assets/js/8.78965a2d.js"><link rel="prefetch" href="/assets/js/9.c9dd39f1.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.2a8ad169.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="Multisite Language Switcher" class="logo"> <span class="site-name can-hide">Multisite Language Switcher</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://wordpress.org/plugins/multisite-language-switcher/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Plugin Directory
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="/api-documentation/" class="nav-link">
+  API documentation
+</a></div> <a href="https://github.com/lloc/multisite-language-switcher" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github Repository
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://wordpress.org/plugins/multisite-language-switcher/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Plugin Directory
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="/api-documentation/" class="nav-link">
+  API documentation
+</a></div> <a href="https://github.com/lloc/multisite-language-switcher" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github Repository
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/" class="sidebar-link">Home</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>User documentation</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Developer documentation</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/developer-docs/snippets-examples.html" class="sidebar-link">Snippets &amp; examples</a></li><li><a href="/developer-docs/hook-reference.html" class="active sidebar-link">Hook reference</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-admin-icon-get-edit-new" class="sidebar-link">msls_admin_icon_get_edit_new</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-admin-advanced-section" class="sidebar-link">msls_admin_advanced_section</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-admin-language-section" class="sidebar-link">msls_admin_language_section</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-admin-main-section" class="sidebar-link">msls_admin_main_section</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-admin-register" class="sidebar-link">msls_admin_register</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-admin-validate" class="sidebar-link">msls_admin_validate</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-blog-collection-construct" class="sidebar-link">msls_blog_collection_construct</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-blog-collection-description" class="sidebar-link">msls_blog_collection_description</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-filter-string" class="sidebar-link">msls_filter_string</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-get-users" class="sidebar-link">msls_get_users</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-head-hreflang" class="sidebar-link">msls_head_hreflang</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-link-create" class="sidebar-link">msls_link_create</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-main-save" class="sidebar-link">msls_main_save</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-meta-box-render-input-button" class="sidebar-link">msls_meta_box_render_input_button</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-meta-box-suggest-args" class="sidebar-link">msls_meta_box_suggest_args</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-post-tag-suggest-args" class="sidebar-link">msls_post_tag_suggest_args</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-meta-box-render-select-hierarchical" class="sidebar-link">msls_meta_box_render_select_hierarchical</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-meta-box-suggest-post" class="sidebar-link">msls_meta_box_suggest_post</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-post-tag-suggest-term" class="sidebar-link">msls_post_tag_suggest_term</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-options-get-available-languages" class="sidebar-link">msls_options_get_available_languages</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-options-get-flag-url" class="sidebar-link">msls_options_get_flag_url</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-options-get-permalink" class="sidebar-link">msls_options_get_permalink</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-output-get" class="sidebar-link">msls_output_get</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-output-get-tags" class="sidebar-link">msls_output_get_tags</a></li><li class="sidebar-sub-header"><a href="/developer-docs/hook-reference.html#msls-widget-alternative-content" class="sidebar-link">msls_widget_alternative_content</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Appendices</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="hook-reference"><a href="#hook-reference" class="header-anchor">#</a> Hook reference</h1> <p>The <strong>Multisite Language Switcher</strong> provides some filters and actions, which are very useful for programmers who want to interact with the plugin from their functions and classes.</p> <p><strong>And again: Always backup your files and database prior to work on your site, better safe than sorry.</strong></p> <blockquote><p><em>Read first the <a href="http://codex.wordpress.org/Plugin_API#Hooks.2C_Actions_and_Filters" target="_blank" rel="noopener noreferrer">introduction<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> provided by the WordPress community if you don't know what hooks are.</em></p></blockquote> <h2 id="msls-admin-icon-get-edit-new"><a href="#msls-admin-icon-get-edit-new" class="header-anchor">#</a> msls_admin_icon_get_edit_new</h2> <p>If you want to change the link of the admin icon in case there is no object connected then this filter is for you. The default is that the link points to the 'create new page' of this object type.</p> <p>Example:</p> <div class="language- extra-class"><pre><code>/**
+ * @param string $path
+ * @return string
+ */
+function my_msls_admin_icon_get_edit_new( $path ) {
+    return add_query_arg( array( 'abc' =&gt; 'xyz' ), $path );
+}
+add_filter( 'msls_admin_icon_get_edit_new', 'my_msls_admin_icon_get_edit_new' );
+</code></pre></div><p><em>This would add the parameter 'abc' with the value 'xyz' to the url path.</em></p> <h2 id="msls-admin-advanced-section"><a href="#msls-admin-advanced-section" class="header-anchor">#</a> msls_admin_advanced_section</h2> <p>Add input fields to the advanced section of the plugin settings (<a href="#msls-admin-main-section">code example</a>).</p> <h2 id="msls-admin-language-section"><a href="#msls-admin-language-section" class="header-anchor">#</a> msls_admin_language_section</h2> <p>Add input fields to the language section of the plugin settings (<a href="#msls-admin-main-section">code example</a>).</p> <h2 id="msls-admin-main-section"><a href="#msls-admin-main-section" class="header-anchor">#</a> msls_admin_main_section</h2> <p>If you want to add custom input fields to the existing sections in the settings of the plugin then you can use one of these actions.</p> <div class="language- extra-class"><pre><code>/**
+ * @param string $page
+ * @param string $section
+ */
+function my_msls_admin_main_section( $page, $section ) {
+    add_settings_field( 'custom_field', __( 'Custom Field' ), 'custom_field', $page, $section );
+}
+add_action( 'msls_admin_main_section', 'my_msls_admin_main_section', 10, 2 );
+
+function custom_field() {
+    printf( 
+        '&lt;input id=&quot;custom_field&quot; name=&quot;msls[custom_field]&quot; value=&quot;%s&quot; size=&quot;30&quot;/&gt;',
+        esc_attr( MslsOptions::instance()-&gt;custom_field )
+    );
+}
+</code></pre></div><p><em>This would add an input field 'custom field' to the main-section of the settings-page.</em></p> <h2 id="msls-admin-register"><a href="#msls-admin-register" class="header-anchor">#</a> msls_admin_register</h2> <p>If you want to add a completely customized settings section to the configuration-pages of the Multisite Language Switcher then you can use this action.</p> <div class="language- extra-class"><pre><code>/**
+ * @param string $page
+ */
+function my_msls_admin_register( $page ) {
+    add_settings_section( 'custom_section', __( 'Custom Settings' ), 'custom_section', $page );
+    add_settings_field( 'custom_field', __( 'Custom Field' ), 'custom_field', $page, 'custom_section' );
+}
+add_action( 'msls_admin_register', 'my_msls_admin_register' );
+
+function custom_section() { }
+
+function custom_field() {
+    printf(
+        '&lt;input id=&quot;custom_field&quot; name=&quot;msls[custom_field]&quot; value=&quot;%s&quot; size=&quot;30&quot;/&gt;',
+        esc_attr( MslsOptions::instance()-&gt;custom_field )
+    );
+}
+</code></pre></div><p><em>This would add a section with the id 'custom section' and an input field 'custom field' to the settings-page of the plugin.</em></p> <h2 id="msls-admin-validate"><a href="#msls-admin-validate" class="header-anchor">#</a> msls_admin_validate</h2> <p>You can use this filter if you want to add some custom validation for an input field in the configuration page of the plugin.</p> <div class="language- extra-class"><pre><code>/**
+ * @param array $arr
+ * @return array
+ */
+function my_msls_admin_validate( $arr ) {
+    $arr['abc'] = ( isset( $arr['abc'] ) ? $arr['abc'] : 'xyz' ); 
+}
+add_filter( 'msls_admin_validate', 'my_msls_admin_validate' );
+</code></pre></div><p><em>This can be useful if you have added your own input fields to this page using an action hook like 'msls_admin_register'.</em></p> <h2 id="msls-blog-collection-construct"><a href="#msls-blog-collection-construct" class="header-anchor">#</a> msls_blog_collection_construct</h2> <p>You can easily manipulate the blog collection.</p> <div class="language- extra-class"><pre><code>/**
+ * @param array $blogs
+ * @return array
+ */
+function my_msls_blog_collection_construct( $blogs ) {
+    if ( isset( $blogs[1] ) ) {
+        unset( $blogs[1] );
+    }
+    return $blogs;
+}
+add_filter( 'msls_blog_collection_construct', 'my_msls_blog_collection_construct' );
+</code></pre></div><p><em>This would exclude the blog with the ID 1 from the collection.</em></p> <h2 id="msls-blog-collection-description"><a href="#msls-blog-collection-description" class="header-anchor">#</a> msls_blog_collection_description</h2> <p>The description string of every blog is not fixed. You can override it.</p> <div class="language- extra-class"><pre><code>/**
+ * @param int $blog_id
+ * @param string|bool $description
+ * @return string|bool
+ */
+function my_msls_blog_collection_description( $blog_id, $description = false ) {
+    $arr = array( 1 =&gt; 'abc', 2 =&gt; 'xyz' );
+    if ( isset( $arr[ $blog_id ] ) ) {
+        $description = $arr[ $blog_id ];
+    }
+    return $description;
+}
+add_filter( 'msls_blog_collection_description', 'my_msls_blog_collection_description', 10, 2 );
+</code></pre></div><p><em>This would give the blog with the ID 1 the description 'abc' and the blog with the ID 2 the name 'xyz.</em></p> <h2 id="msls-filter-string"><a href="#msls-filter-string" class="header-anchor">#</a> msls_filter_string</h2> <p>You can override the string for the output of the translation hint. <em>$output</em> contains the original string and <em>$links</em> is an array of generated links to the available translations.</p> <div class="language- extra-class"><pre><code>/**
+ * @param string $output
+ * @param array $links
+ * @return string
+ */
+function my_msls_filter_string( $output, $links ) {
+    if ( empty( $links ) ) {
+        $output = '';
+    }
+    else {
+        $output = sprintf(
+            '&lt;p&gt;%s&lt;/p&gt;&lt;ul&gt;&lt;li&gt;%s&lt;/li&gt;&lt;/ul&gt;',
+            __( 'Available Translations' ),
+            implode( '&lt;/li&gt;&lt;li&gt;', $links )
+        );
+    }
+    return $output;
+}
+add_filter( 'msls_filter_string', 'my_msls_filter_string', 10, 2 );
+</code></pre></div><p><em>You can use the following code if you want to remove this filter completely:</em></p> <div class="language- extra-class"><pre><code>remove_action( 'the_content', 'msls_content_filter' );
+</code></pre></div><h2 id="msls-get-users"><a href="#msls-get-users" class="header-anchor">#</a> msls_get_users</h2> <p>The plugin has a html-select for the reference user which can be the source of slow queries in case of bigger user-tables. You can limit the query like in <a href="https://developer.wordpress.org/reference/classes/wp_user_query/prepare_query/" target="_blank" rel="noopener noreferrer">WP_User_Query<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <div class="language- extra-class"><pre><code>/**
+ * @param array $args
+ * @return array
+ */
+function my_msls_get_users( $args ) {
+    $args['role'] = 'administrator';
+}
+add_filter( 'msls_get_users', 'my_msls_get_users' );
+</code></pre></div><p><em>This will return only users with the role &quot;administrator&quot;.</em></p> <h2 id="msls-head-hreflang"><a href="#msls-head-hreflang" class="header-anchor">#</a> msls_head_hreflang</h2> <p>The plugin creates automatically <a href="https://support.google.com/webmasters/answer/189077?hl=en" target="_blank" rel="noopener noreferrer">hreflang annotations<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> in the head of the generated HTML using the code of the language only (eg. en, de, fr). You can easily override this value:</p> <div class="language- extra-class"><pre><code>/**
+ * @param string $language
+ * @return string
+ */
+function my_msls_head_hreflang( $language ) {
+    if ( 'en' == $language ) {
+        $language = 'en-gb';
+    }
+    return $language;
+}
+add_filter( 'msls_head_hreflang', 'my_msls_head_hreflang' );
+</code></pre></div><p><em>You can use the following code if you want to remove these tags completely:</em></p> <div class="language- extra-class"><pre><code>remove_action( 'wp_head', [ lloc\Msls\MslsPlugin::class, 'print_alternate_links' ] );
+</code></pre></div><h2 id="msls-link-create"><a href="#msls-link-create" class="header-anchor">#</a> msls_link_create</h2> <p>There is also a way to manipulate the inner HTML in the generated links. Just create your own MslsLink class.</p> <div class="language- extra-class"><pre><code>/**
+ * @param int $display
+ * @return MslsLink
+ */
+function my_msls_link_create( $display ) {
+    class MyMslsLink extends MslsLink {
+        protected $format_string = '&lt;img src=&quot;{src}&quot; alt=&quot;{alt}&quot;/&gt; &lt;span&gt;{txt}&lt;/span&gt;';
+    }
+    return new MyMslsLink;
+}
+add_filter( 'msls_link_create', 'my_msls_link_create' );
+</code></pre></div><p><em>This adds label tags to the descriptional text after the flag icon.</em></p> <h2 id="msls-main-save"><a href="#msls-main-save" class="header-anchor">#</a> msls_main_save</h2> <p>With this action you can call a completely customized save-routine.</p> <div class="language- extra-class"><pre><code>/**
+ * @param int $object_id
+ * @param string $class
+ */
+function my_msls_main_save( $object_id, $class ) {
+    // Your code here
+}
+add_action( 'msls_main_save', 'my_msls_main_save' );
+</code></pre></div><p><em>Use this action only if you exactly know what you do!</em></p> <h2 id="msls-meta-box-render-input-button"><a href="#msls-meta-box-render-input-button" class="header-anchor">#</a> msls_meta_box_render_input_button</h2> <p>You can change or hide the button of the meta box in the edit-screen with this filter.</p> <div class="language- extra-class"><pre><code>/**
+ * @param string $input_button
+ */
+function my_hide_input_button( $input_button ) {
+    return '&lt;!-- ' . $input_button . ' --&gt;';
+}
+add_filter( 'msls_meta_box_render_input_button', 'my_hide_input_button' );
+</code></pre></div><p><em>This wraps the code of the submit-button into HTML comments.</em></p> <h2 id="msls-meta-box-suggest-args"><a href="#msls-meta-box-suggest-args" class="header-anchor">#</a> msls_meta_box_suggest_args</h2> <div class="language- extra-class"><pre><code>/**
+ * @param array $args
+ * @return array
+ */
+function my_msls_meta_box_suggest_args( $args ) {
+    $args['posts_per_page'] = 5;
+    return $args;
+}
+add_filter( 'msls_meta_box_suggest_args', 'my_msls_meta_box_suggest_args' );
+</code></pre></div><p>Maybe you will find it useful to be able to override the <a href="http://codex.wordpress.org/Class_Reference/WP_Query" target="_blank" rel="noopener noreferrer">WP_Query<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <em>$args</em> for the auto-complete search-field in the meta box which you can see in the edit-screen of the various post-types or taxonomies of your WordPress site.</p> <p><em>This would limit the output of the results to a maximum of 5 posts.</em></p> <h2 id="msls-post-tag-suggest-args"><a href="#msls-post-tag-suggest-args" class="header-anchor">#</a> msls_post_tag_suggest_args</h2> <p>Read on here: <a href="#msls-meta-box-suggest-args">msls_meta_box_suggest_args</a></p> <h2 id="msls-meta-box-render-select-hierarchical"><a href="#msls-meta-box-render-select-hierarchical" class="header-anchor">#</a> msls_meta_box_render_select_hierarchical</h2> <p>This is only valid for hierarchical post types that use the HTML select (and <em>not</em> the new autocomplete inputs)in the meta box.</p> <div class="language- extra-class"><pre><code>/**
+ * @param array $args
+ * @return array
+ */
+function my_msls_meta_box_render_select_hierarchical( $args ) {
+    $args['post_status'] = array( 'publish', 'draft', 'future', 'pending' );
+    return $args;
+}
+add_filter( 'msls_meta_box_render_select_hierarchical', 'my_msls_meta_box_render_select_hierarchical' );
+</code></pre></div><p>This adds various post_stati to the array <em>$args</em> for _wp_dropdown_pages even if this function does not expect this. But inside the function is a call to <em>get_pages</em> that can use this param.</p> <h2 id="msls-meta-box-suggest-post"><a href="#msls-meta-box-suggest-post" class="header-anchor">#</a> msls_meta_box_suggest_post</h2> <p>You can even manipulate the <a href="http://codex.wordpress.org/Class_Reference/WP_Post" target="_blank" rel="noopener noreferrer">WP_Post<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>- or Term-objects in the result-set created in 'msls_meta_box_suggest_args' or 'msls_post_tag_suggest_args'.</p> <div class="language- extra-class"><pre><code>/**
+ * @param \WP_Post $post
+ * @return \WP_Post
+ */
+function my_msls_meta_box_suggest_post( $post ) {
+    $post-&gt;post_title .= ' (' . $post-&gt;ID . ')';
+    return $post;
+}
+add_filter( 'msls_meta_box_suggest_post', 'my_msls_meta_box_suggest_post' );
+</code></pre></div><p><em>This would add the post_id to the title of the posts in the autocomplete-field of the meta box.</em></p> <h2 id="msls-post-tag-suggest-term"><a href="#msls-post-tag-suggest-term" class="header-anchor">#</a> msls_post_tag_suggest_term</h2> <p>Read on here: <a href="#msls-meta-box-suggest-post">msls_meta_box_suggest_post</a></p> <h2 id="msls-options-get-available-languages"><a href="#msls-options-get-available-languages" class="header-anchor">#</a> msls_options_get_available_languages</h2> <p>You can create a custom function to filter the available languages used in the language section of the plugin-settings.</p> <div class="language- extra-class"><pre><code>/**
+ * @param array $languages
+ * @return string
+ */
+function my_msls_options_get_available_languages( languages ) {
+    if ( ! isset( $languages['en_GB'] ) ) {
+        $languages['en_GB'] = 'British English';
+    }
+    return $languages;
+}
+add_filter( 'msls_options_get_available_languages', 'my_msls_options_get_available_languages' );
+</code></pre></div><p><em>Even if it is still not fully tested, it seems to be a smart way to add a language without the language files installed. In this case it would solve the issue with the American flag and the Union Jack.</em></p> <h2 id="msls-options-get-flag-url"><a href="#msls-options-get-flag-url" class="header-anchor">#</a> msls_options_get_flag_url</h2> <p>You can set the path to the flag-icons in the admin settings of the plugin but you can also override the path with a filter.</p> <div class="language- extra-class"><pre><code>/**
+ * @param string $url
+ * @return string
+ */
+function my_msls_options_get_flag_url( $url ) {
+    return get_stylesheet_directory_uri() . '/images/';
+}
+add_filter( 'msls_options_get_flag_url', 'my_msls_options_get_flag_url' );
+</code></pre></div><p><em>This 'sets' the path to the flag icons to the directory 'images' in the active theme.</em></p> <h2 id="msls-options-get-permalink"><a href="#msls-options-get-permalink" class="header-anchor">#</a> msls_options_get_permalink</h2> <p>I decided to add a filter to the implementation of get_permalink in the plugin so that I can offer a workaround for the issues with the possibility to localize the slugs of custom post types.</p> <div class="language- extra-class"><pre><code>/**
+ * @param string $postlink
+ * @param string $language
+ * @return string
+ */
+function my_msls_options_get_permalink( $url, $language ) {
+    if ( 'de_DE' == $language ) {
+        $url = str_replace( '/products/', '/produkte/', $url );
+    }
+    return $url;
+}
+add_filter( 'msls_options_get_permalink', 'my_msls_options_get_permalink', 10, 2 );
+</code></pre></div><p><em>This replaces the 'products'-part in the URL with 'produkte' if $language is 'de_DE'.</em></p> <h2 id="msls-output-get"><a href="#msls-output-get" class="header-anchor">#</a> msls_output_get</h2> <p>You can use this filter if you want to change the format of the generated links to the translations in your blog.</p> <div class="language- extra-class"><pre><code>/**
+ * @param string $url
+ * @param lloc\Msls\MslsLink $link
+ * @param bool current
+ * @return string
+ */
+function my_msls_output_get( $url, $link, $current ) {
+    return sprintf(
+        '&lt;a href=&quot;%s&quot; title=&quot;%s&quot;%s&gt;%s&lt;/a&gt;',
+        $url,
+        $link-&gt;txt,
+        ( $current ? ' class=&quot;current&quot;' : '' ),
+        $link
+    );
+}
+add_filter( 'msls_output_get', 'my_msls_output_get', 10, 3 );
+</code></pre></div><p><em>This would transform the absolute URL in a relative one and would add the css-class 'current' to the link of the current blog.</em></p> <h2 id="msls-output-get-tags"><a href="#msls-output-get-tags" class="header-anchor">#</a> msls_output_get_tags</h2> <p>You can configure the output-tags in the admin settings of the plugin but you can also override these with a filter.</p> <div class="language- extra-class"><pre><code>/**
+ * @param array $tags
+ * @return array
+ */
+function my_msls_output_get_tags( $tags ) {
+    return array(
+        'before_item'   =&gt; '&lt;li&gt;',
+        'after_item'    =&gt; '&lt;/li&gt;',
+        'before_output' =&gt; '&lt;ul&gt;',
+        'after_output'  =&gt; '&lt;/ul&gt;',
+    );
+}
+add_filter( 'msls_output_get_tags', 'my_msls_output_get_tags' );
+</code></pre></div><p><em>This would override completely the configuration without looking for existing values.</em></p> <h2 id="msls-widget-alternative-content"><a href="#msls-widget-alternative-content" class="header-anchor">#</a> msls_widget_alternative_content</h2> <p>The widget will output &quot;No available translations found&quot; if you set &quot;Show only links with a translation&quot; in the plugin options and if there is no translation available. You can override the output-string:</p> <div class="language- extra-class"><pre><code>/**
+ * @param string $text
+ * @return array
+ */
+function my_msls_widget_alternative_content( $text ) {       
+    return '';
+}
+add_filter( 'msls_widget_alternative_content', 'my_msls_widget_alternative_content' );
+</code></pre></div><p><em>This would be helpful if you want to show an empty string.</em></p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/lloc/multisite-language-switcher/edit/master/docs/developer-docs/hook-reference.md" target="_blank" rel="noopener noreferrer">Help me improve this page!</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">11/15/2019, 11:54:09 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/developer-docs/snippets-examples.html" class="prev">
+        Snippets &amp; examples
+      </a></span> <span class="next"><a href="/appendices/faq.html">
+        Frequently Asked Questions
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.e07b5001.js" defer></script><script src="/assets/js/2.585dabe6.js" defer></script><script src="/assets/js/10.d0d90ff7.js" defer></script>
+  </body>
+</html>
